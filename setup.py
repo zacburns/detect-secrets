@@ -23,6 +23,7 @@ setup(
     url='hhttps://github.com/IBM/detect-secrets',
     keywords=['secret-management', 'pre-commit', 'security', 'entropy-checks'],
     install_requires=[
+        "cffi==1.14.6",
         'pyyaml',
         'requests',
         'urllib3<2.0.0',
